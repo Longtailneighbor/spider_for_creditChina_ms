@@ -2,14 +2,14 @@
 
 
   --------------------------------------------------------
-  ### spider_for_creditChina_ms
+  ### spider_for_creditChina_ms-第一版
 
   感谢银龙的前半部分getchild代码
   
   后半部分加入了自己写的网页解析与插入代码，效果还待检查
 
 --------------------------------------------------------
-  ###spider_for_creditChina_ms
+  ###spider_for_creditChina_ms-第二版
   
   引用了银龙获取childlink部分（post）
 
@@ -18,3 +18,13 @@
   新增自动日志功能
   
   代码为SpiderFCIjhon.py单个文件，暂时未分开
+--------------------------------------------------------
+  ###spider_for_creditChina_ms-第三版
+  
+  上传脚本SpiderFCIjhon_proxy0.2.py ，代码也未分开
+  
+  加入了代理（能自检，自动获取代理ip）
+  
+  加入线程池，设置为10个线程
+  
+  
