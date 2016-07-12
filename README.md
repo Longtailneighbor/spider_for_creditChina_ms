@@ -41,3 +41,8 @@
   
   综合来看，速度得到大幅提升，今晚测试下能爬下多少数据
   
+  --------------------------------------------------------
+
+  ###spider_for_creditChina_ms-第五版
+  
+  加入了阻塞，有两种阻塞(pool.close,pool.join)，一种pool.map：一组数据，的一种pool.apply：单个数据，zip(list,array)
